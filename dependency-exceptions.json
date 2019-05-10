@@ -1,0 +1,2038 @@
+[
+ {
+  "exceptions": [
+   "java.io.ObjectStreamException"
+  ], 
+  "methodRegex": "org\\.slf4j\\.helpers\\.NamedLoggerBase\\.readResolve\\:\\(\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.NoClassDefFoundError"
+  ], 
+  "methodRegex": "org\\.slf4j\\.MarkerFactory\\.bwCompatibleGetMarkerFactoryFromBinder\\:\\(\\)Lorg\\/slf4j\\/IMarkerFactory\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.NoClassDefFoundError"
+  ], 
+  "methodRegex": "org\\.slf4j\\.MDC\\.bwCompatibleGetMDCAdapterFromBinder\\:\\(\\)Lorg\\/slf4j\\/spi\\/MDCAdapter\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.IllegalArgumentException"
+  ], 
+  "methodRegex": "org\\.slf4j\\.MDC\\.put\\:\\(Ljava\\/lang\\/String\\;Ljava\\/lang\\/String\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.IllegalArgumentException"
+  ], 
+  "methodRegex": "org\\.slf4j\\.MDC\\.putCloseable\\:\\(Ljava\\/lang\\/String\\;Ljava\\/lang\\/String\\;\\)Lorg\\/slf4j\\/MDC\\$MDCCloseable\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.IllegalArgumentException"
+  ], 
+  "methodRegex": "org\\.slf4j\\.MDC\\.get\\:\\(Ljava\\/lang\\/String\\;\\)Ljava\\/lang\\/String\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.IllegalArgumentException"
+  ], 
+  "methodRegex": "org\\.slf4j\\.MDC\\.remove\\:\\(Ljava\\/lang\\/String\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.api\\.extension\\.AfterAllCallback\\.afterAll\\:\\(Lorg\\/junit\\/jupiter\\/api\\/extension\\/ExtensionContext\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.api\\.extension\\.BeforeEachCallback\\.beforeEach\\:\\(Lorg\\/junit\\/jupiter\\/api\\/extension\\/ExtensionContext\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.jupiter.api.extension.ParameterResolutionException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.api\\.extension\\.ParameterResolver\\.supportsParameter\\:\\(Lorg\\/junit\\/jupiter\\/api\\/extension\\/ParameterContext\\;Lorg\\/junit\\/jupiter\\/api\\/extension\\/ExtensionContext\\;\\)Z"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.jupiter.api.extension.ParameterResolutionException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.api\\.extension\\.ParameterResolver\\.resolveParameter\\:\\(Lorg\\/junit\\/jupiter\\/api\\/extension\\/ParameterContext\\;Lorg\\/junit\\/jupiter\\/api\\/extension\\/ExtensionContext\\;\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Throwable"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.api\\.extension\\.ExtensionContext\\$Store\\$CloseableResource\\.close\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.api\\.extension\\.AfterEachCallback\\.afterEach\\:\\(Lorg\\/junit\\/jupiter\\/api\\/extension\\/ExtensionContext\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.jupiter.api.extension.TestInstantiationException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.api\\.extension\\.TestInstanceFactory\\.createTestInstance\\:\\(Lorg\\/junit\\/jupiter\\/api\\/extension\\/TestInstanceFactoryContext\\;Lorg\\/junit\\/jupiter\\/api\\/extension\\/ExtensionContext\\;\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.api\\.extension\\.BeforeTestExecutionCallback\\.beforeTestExecution\\:\\(Lorg\\/junit\\/jupiter\\/api\\/extension\\/ExtensionContext\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.api\\.extension\\.AfterTestExecutionCallback\\.afterTestExecution\\:\\(Lorg\\/junit\\/jupiter\\/api\\/extension\\/ExtensionContext\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Throwable"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.api\\.extension\\.TestExecutionExceptionHandler\\.handleTestExecutionException\\:\\(Lorg\\/junit\\/jupiter\\/api\\/extension\\/ExtensionContext\\;Ljava\\/lang\\/Throwable\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.api\\.extension\\.TestInstancePostProcessor\\.postProcessTestInstance\\:\\(Ljava\\/lang\\/Object\\;Lorg\\/junit\\/jupiter\\/api\\/extension\\/ExtensionContext\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.api\\.extension\\.BeforeAllCallback\\.beforeAll\\:\\(Lorg\\/junit\\/jupiter\\/api\\/extension\\/ExtensionContext\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Throwable"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.api\\.DynamicTest\\.lambda\\$stream\\$0\\:\\(Lorg\\/junit\\/jupiter\\/api\\/function\\/ThrowingConsumer\\;Ljava\\/lang\\/Object\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Throwable"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.api\\.function\\.Executable\\.execute\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Throwable"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.api\\.function\\.ThrowingSupplier\\.get\\:\\(\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Throwable"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.api\\.function\\.ThrowingConsumer\\.accept\\:\\(Ljava\\/lang\\/Object\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "org.opentest4j.MultipleFailuresError"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.api\\.Assertions\\.assertAll\\:\\(\\[Lorg\\/junit\\/jupiter\\/api\\/function\\/Executable\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "org.opentest4j.MultipleFailuresError"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.api\\.Assertions\\.assertAll\\:\\(Ljava\\/lang\\/String\\;\\[Lorg\\/junit\\/jupiter\\/api\\/function\\/Executable\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "org.opentest4j.MultipleFailuresError"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.api\\.Assertions\\.assertAll\\:\\(Ljava\\/util\\/Collection\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "org.opentest4j.MultipleFailuresError"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.api\\.Assertions\\.assertAll\\:\\(Ljava\\/lang\\/String\\;Ljava\\/util\\/Collection\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "org.opentest4j.MultipleFailuresError"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.api\\.Assertions\\.assertAll\\:\\(Ljava\\/util\\/stream\\/Stream\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "org.opentest4j.MultipleFailuresError"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.api\\.Assertions\\.assertAll\\:\\(Ljava\\/lang\\/String\\;Ljava\\/util\\/stream\\/Stream\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "org.opentest4j.TestAbortedException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.api\\.Assumptions\\.assumeTrue\\:\\(Z\\)V"
+ }, 
+ {
+  "exceptions": [
+   "org.opentest4j.TestAbortedException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.api\\.Assumptions\\.assumeTrue\\:\\(Ljava\\/util\\/function\\/BooleanSupplier\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "org.opentest4j.TestAbortedException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.api\\.Assumptions\\.assumeTrue\\:\\(Ljava\\/util\\/function\\/BooleanSupplier\\;Ljava\\/lang\\/String\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "org.opentest4j.TestAbortedException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.api\\.Assumptions\\.assumeTrue\\:\\(ZLjava\\/util\\/function\\/Supplier\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "org.opentest4j.TestAbortedException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.api\\.Assumptions\\.assumeTrue\\:\\(ZLjava\\/lang\\/String\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "org.opentest4j.TestAbortedException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.api\\.Assumptions\\.assumeTrue\\:\\(Ljava\\/util\\/function\\/BooleanSupplier\\;Ljava\\/util\\/function\\/Supplier\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "org.opentest4j.TestAbortedException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.api\\.Assumptions\\.assumeFalse\\:\\(Z\\)V"
+ }, 
+ {
+  "exceptions": [
+   "org.opentest4j.TestAbortedException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.api\\.Assumptions\\.assumeFalse\\:\\(Ljava\\/util\\/function\\/BooleanSupplier\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "org.opentest4j.TestAbortedException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.api\\.Assumptions\\.assumeFalse\\:\\(Ljava\\/util\\/function\\/BooleanSupplier\\;Ljava\\/lang\\/String\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "org.opentest4j.TestAbortedException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.api\\.Assumptions\\.assumeFalse\\:\\(ZLjava\\/util\\/function\\/Supplier\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "org.opentest4j.TestAbortedException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.api\\.Assumptions\\.assumeFalse\\:\\(ZLjava\\/lang\\/String\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "org.opentest4j.TestAbortedException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.api\\.Assumptions\\.assumeFalse\\:\\(Ljava\\/util\\/function\\/BooleanSupplier\\;Ljava\\/util\\/function\\/Supplier\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.api\\.AssertTimeout\\.lambda\\$assertTimeoutPreemptively\\$4\\:\\(Lorg\\/junit\\/jupiter\\/api\\/function\\/ThrowingSupplier\\;\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Throwable"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.api\\.AssertTimeout\\.lambda\\$assertTimeoutPreemptively\\$3\\:\\(Lorg\\/junit\\/jupiter\\/api\\/function\\/Executable\\;\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Throwable"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.api\\.AssertTimeout\\.lambda\\$assertTimeoutPreemptively\\$2\\:\\(Lorg\\/junit\\/jupiter\\/api\\/function\\/Executable\\;\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Throwable"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.api\\.AssertTimeout\\.lambda\\$assertTimeout\\$1\\:\\(Lorg\\/junit\\/jupiter\\/api\\/function\\/Executable\\;\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Throwable"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.api\\.AssertTimeout\\.lambda\\$assertTimeout\\$0\\:\\(Lorg\\/junit\\/jupiter\\/api\\/function\\/Executable\\;\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.commons\\.util\\.ClassFileVisitor\\.postVisitDirectory\\:\\(Ljava\\/lang\\/Object\\;Ljava\\/io\\/IOException\\;\\)Ljava\\/nio\\/file\\/FileVisitResult\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.commons\\.util\\.ClassFileVisitor\\.visitFileFailed\\:\\(Ljava\\/lang\\/Object\\;Ljava\\/io\\/IOException\\;\\)Ljava\\/nio\\/file\\/FileVisitResult\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.commons\\.util\\.ClassFileVisitor\\.visitFile\\:\\(Ljava\\/lang\\/Object\\;Ljava\\/nio\\/file\\/attribute\\/BasicFileAttributes\\;\\)Ljava\\/nio\\/file\\/FileVisitResult\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.ClassNotFoundException"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.commons\\.util\\.ReflectionUtils\\.loadArrayType\\:\\(Ljava\\/lang\\/ClassLoader\\;Ljava\\/lang\\/String\\;I\\)Ljava\\/lang\\/Class\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.commons\\.util\\.ReflectionUtils\\.lambda\\$tryToGetMethod\\$20\\:\\(Ljava\\/lang\\/Class\\;Ljava\\/lang\\/String\\;\\[Ljava\\/lang\\/Class\\;\\)Ljava\\/lang\\/reflect\\/Method\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.commons\\.util\\.ReflectionUtils\\.lambda\\$tryToLoadClass\\$9\\:\\(Ljava\\/lang\\/String\\;Ljava\\/lang\\/ClassLoader\\;\\)Ljava\\/lang\\/Class\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.commons\\.util\\.ReflectionUtils\\.lambda\\$tryToReadFieldValue\\$5\\:\\(Ljava\\/lang\\/reflect\\/Field\\;Ljava\\/lang\\/Object\\;\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.commons\\.util\\.ReflectionUtils\\.lambda\\$tryToReadFieldValue\\$2\\:\\(Ljava\\/lang\\/Class\\;Ljava\\/lang\\/String\\;\\)Ljava\\/lang\\/reflect\\/Field\\;"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.platform.commons.util.PreconditionViolationException"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.commons\\.util\\.Preconditions\\.notNull\\:\\(Ljava\\/lang\\/Object\\;Ljava\\/lang\\/String\\;\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.platform.commons.util.PreconditionViolationException"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.commons\\.util\\.Preconditions\\.notNull\\:\\(Ljava\\/lang\\/Object\\;Ljava\\/util\\/function\\/Supplier\\;\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.platform.commons.util.PreconditionViolationException"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.commons\\.util\\.Preconditions\\.notEmpty\\:\\(\\[Ljava\\/lang\\/Object\\;Ljava\\/lang\\/String\\;\\)\\[Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.platform.commons.util.PreconditionViolationException"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.commons\\.util\\.Preconditions\\.notEmpty\\:\\(\\[Ljava\\/lang\\/Object\\;Ljava\\/util\\/function\\/Supplier\\;\\)\\[Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.platform.commons.util.PreconditionViolationException"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.commons\\.util\\.Preconditions\\.notEmpty\\:\\(Ljava\\/util\\/Collection\\;Ljava\\/lang\\/String\\;\\)Ljava\\/util\\/Collection\\;"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.platform.commons.util.PreconditionViolationException"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.commons\\.util\\.Preconditions\\.notEmpty\\:\\(Ljava\\/util\\/Collection\\;Ljava\\/util\\/function\\/Supplier\\;\\)Ljava\\/util\\/Collection\\;"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.platform.commons.util.PreconditionViolationException"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.commons\\.util\\.Preconditions\\.containsNoNullElements\\:\\(\\[Ljava\\/lang\\/Object\\;Ljava\\/lang\\/String\\;\\)\\[Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.platform.commons.util.PreconditionViolationException"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.commons\\.util\\.Preconditions\\.containsNoNullElements\\:\\(\\[Ljava\\/lang\\/Object\\;Ljava\\/util\\/function\\/Supplier\\;\\)\\[Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.platform.commons.util.PreconditionViolationException"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.commons\\.util\\.Preconditions\\.containsNoNullElements\\:\\(Ljava\\/util\\/Collection\\;Ljava\\/lang\\/String\\;\\)Ljava\\/util\\/Collection\\;"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.platform.commons.util.PreconditionViolationException"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.commons\\.util\\.Preconditions\\.containsNoNullElements\\:\\(Ljava\\/util\\/Collection\\;Ljava\\/util\\/function\\/Supplier\\;\\)Ljava\\/util\\/Collection\\;"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.platform.commons.util.PreconditionViolationException"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.commons\\.util\\.Preconditions\\.notBlank\\:\\(Ljava\\/lang\\/String\\;Ljava\\/lang\\/String\\;\\)Ljava\\/lang\\/String\\;"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.platform.commons.util.PreconditionViolationException"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.commons\\.util\\.Preconditions\\.notBlank\\:\\(Ljava\\/lang\\/String\\;Ljava\\/util\\/function\\/Supplier\\;\\)Ljava\\/lang\\/String\\;"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.platform.commons.util.PreconditionViolationException"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.commons\\.util\\.Preconditions\\.condition\\:\\(ZLjava\\/lang\\/String\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.platform.commons.util.PreconditionViolationException"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.commons\\.util\\.Preconditions\\.condition\\:\\(ZLjava\\/util\\/function\\/Supplier\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException", 
+   "java.net.URISyntaxException"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.commons\\.util\\.CloseablePath\\.create\\:\\(Ljava\\/net\\/URI\\;\\)Lorg\\/junit\\/platform\\/commons\\/util\\/CloseablePath\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.commons\\.util\\.CloseablePath\\.createForJarFileSystem\\:\\(Ljava\\/net\\/URI\\;Ljava\\/util\\/function\\/Function\\;\\)Lorg\\/junit\\/platform\\/commons\\/util\\/CloseablePath\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.commons\\.util\\.CloseablePath\\.close\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.commons\\.util\\.CloseablePath\\.lambda\\$static\\$0\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Throwable"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.commons\\.util\\.ExceptionUtils\\.throwAs\\:\\(Ljava\\/lang\\/Throwable\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.commons\\.function\\.Try\\$Success\\.lambda\\$andThen\\$1\\:\\(Ljava\\/util\\/function\\/Function\\;\\)Lorg\\/junit\\/platform\\/commons\\/function\\/Try\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.commons\\.function\\.Try\\$Success\\.lambda\\$andThenTry\\$0\\:\\(Lorg\\/junit\\/platform\\/commons\\/function\\/Try\\$Transformer\\;\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.commons\\.function\\.Try\\$Failure\\.get\\:\\(\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.commons\\.function\\.Try\\$Failure\\.getOrThrow\\:\\(Ljava\\/util\\/function\\/Function\\;\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.commons\\.function\\.Try\\.get\\:\\(\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.commons\\.function\\.Try\\.getOrThrow\\:\\(Ljava\\/util\\/function\\/Function\\;\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.commons\\.function\\.Try\\.lambda\\$call\\$0\\:\\(Ljava\\/util\\/concurrent\\/Callable\\;\\)Lorg\\/junit\\/platform\\/commons\\/function\\/Try\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.commons\\.function\\.Try\\$Transformer\\.apply\\:\\(Ljava\\/lang\\/Object\\;\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.converter\\.FallbackStringToObjectConverter\\.convert\\:\\(Ljava\\/lang\\/String\\;Ljava\\/lang\\/Class\\;\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.converter\\.DefaultArgumentConverter\\$StringToObjectConverter\\.convert\\:\\(Ljava\\/lang\\/String\\;Ljava\\/lang\\/Class\\;\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.jupiter.params.converter.ArgumentConversionException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.converter\\.ArgumentConverter\\.convert\\:\\(Ljava\\/lang\\/Object\\;Lorg\\/junit\\/jupiter\\/api\\/extension\\/ParameterContext\\;\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.jupiter.params.converter.ArgumentConversionException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.converter\\.JavaTimeArgumentConverter\\.convert\\:\\(Ljava\\/lang\\/Object\\;Ljava\\/lang\\/Class\\;\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.converter\\.DefaultArgumentConverter\\$StringToCommonJavaTypesConverter\\.convert\\:\\(Ljava\\/lang\\/String\\;Ljava\\/lang\\/Class\\;\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.converter\\.DefaultArgumentConverter\\$StringToEnumConverter\\.convert\\:\\(Ljava\\/lang\\/String\\;Ljava\\/lang\\/Class\\;\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.jupiter.params.converter.ArgumentConversionException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.converter\\.SimpleArgumentConverter\\.convert\\:\\(Ljava\\/lang\\/Object\\;Lorg\\/junit\\/jupiter\\/api\\/extension\\/ParameterContext\\;\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.jupiter.params.converter.ArgumentConversionException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.converter\\.SimpleArgumentConverter\\.convert\\:\\(Ljava\\/lang\\/Object\\;Ljava\\/lang\\/Class\\;\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.converter\\.DefaultArgumentConverter\\$StringToJavaTimeConverter\\.convert\\:\\(Ljava\\/lang\\/String\\;Ljava\\/lang\\/Class\\;\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.jupiter.params.aggregator.ArgumentsAggregationException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.aggregator\\.ArgumentsAggregator\\.aggregateArguments\\:\\(Lorg\\/junit\\/jupiter\\/params\\/aggregator\\/ArgumentsAccessor\\;Lorg\\/junit\\/jupiter\\/api\\/extension\\/ParameterContext\\;\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.jupiter.params.aggregator.ArgumentAccessException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.aggregator\\.ArgumentsAccessor\\.get\\:\\(I\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.jupiter.params.aggregator.ArgumentAccessException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.aggregator\\.ArgumentsAccessor\\.get\\:\\(ILjava\\/lang\\/Class\\;\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.jupiter.params.aggregator.ArgumentAccessException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.aggregator\\.ArgumentsAccessor\\.getCharacter\\:\\(I\\)Ljava\\/lang\\/Character\\;"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.jupiter.params.aggregator.ArgumentAccessException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.aggregator\\.ArgumentsAccessor\\.getBoolean\\:\\(I\\)Ljava\\/lang\\/Boolean\\;"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.jupiter.params.aggregator.ArgumentAccessException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.aggregator\\.ArgumentsAccessor\\.getByte\\:\\(I\\)Ljava\\/lang\\/Byte\\;"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.jupiter.params.aggregator.ArgumentAccessException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.aggregator\\.ArgumentsAccessor\\.getShort\\:\\(I\\)Ljava\\/lang\\/Short\\;"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.jupiter.params.aggregator.ArgumentAccessException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.aggregator\\.ArgumentsAccessor\\.getInteger\\:\\(I\\)Ljava\\/lang\\/Integer\\;"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.jupiter.params.aggregator.ArgumentAccessException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.aggregator\\.ArgumentsAccessor\\.getLong\\:\\(I\\)Ljava\\/lang\\/Long\\;"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.jupiter.params.aggregator.ArgumentAccessException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.aggregator\\.ArgumentsAccessor\\.getFloat\\:\\(I\\)Ljava\\/lang\\/Float\\;"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.jupiter.params.aggregator.ArgumentAccessException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.aggregator\\.ArgumentsAccessor\\.getDouble\\:\\(I\\)Ljava\\/lang\\/Double\\;"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.jupiter.params.aggregator.ArgumentAccessException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.aggregator\\.ArgumentsAccessor\\.getString\\:\\(I\\)Ljava\\/lang\\/String\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.provider\\.ArgumentsProvider\\.provideArguments\\:\\(Lorg\\/junit\\/jupiter\\/api\\/extension\\/ExtensionContext\\;\\)Ljava\\/util\\/stream\\/Stream\\;"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.jupiter.params.aggregator.ArgumentsAggregationException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.ParameterizedTestMethodContext\\$Aggregator\\.lambda\\$static\\$0\\:\\(Lorg\\/junit\\/jupiter\\/params\\/aggregator\\/ArgumentsAccessor\\;Lorg\\/junit\\/jupiter\\/api\\/extension\\/ParameterContext\\;\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.jupiter.api.extension.ParameterResolutionException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.ParameterizedTestParameterResolver\\.resolveParameter\\:\\(Lorg\\/junit\\/jupiter\\/api\\/extension\\/ParameterContext\\;Lorg\\/junit\\/jupiter\\/api\\/extension\\/ExtensionContext\\;\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.CloneNotSupportedException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.shadow\\.com\\.univocity\\.parsers\\.tsv\\.TsvFormat\\.clone\\:\\(\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.CloneNotSupportedException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.shadow\\.com\\.univocity\\.parsers\\.tsv\\.TsvParserSettings\\.clone\\:\\(\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.CloneNotSupportedException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.shadow\\.com\\.univocity\\.parsers\\.tsv\\.TsvWriterSettings\\.clone\\:\\(\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.CloneNotSupportedException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.shadow\\.com\\.univocity\\.parsers\\.csv\\.CsvParserSettings\\.clone\\:\\(\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.CloneNotSupportedException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.shadow\\.com\\.univocity\\.parsers\\.csv\\.CsvFormat\\.clone\\:\\(\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.CloneNotSupportedException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.shadow\\.com\\.univocity\\.parsers\\.csv\\.CsvWriterSettings\\.clone\\:\\(\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.CloneNotSupportedException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.shadow\\.com\\.univocity\\.parsers\\.fixed\\.FixedWidthFormat\\.clone\\:\\(\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.CloneNotSupportedException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.shadow\\.com\\.univocity\\.parsers\\.fixed\\.FixedWidthParserSettings\\.clone\\:\\(\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.CloneNotSupportedException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.shadow\\.com\\.univocity\\.parsers\\.fixed\\.FixedWidthWriterSettings\\.clone\\:\\(\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.CloneNotSupportedException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.shadow\\.com\\.univocity\\.parsers\\.fixed\\.FixedWidthFields\\.clone\\:\\(\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.shadow\\.com\\.univocity\\.parsers\\.common\\.input\\.WriterCharAppender\\.writeCharsAndReset\\:\\(Ljava\\/io\\/Writer\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.shadow\\.com\\.univocity\\.parsers\\.common\\.input\\.BomInput\\.next\\:\\(\\)I"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.shadow\\.com\\.univocity\\.parsers\\.common\\.input\\.BomInput\\.read\\:\\(\\)I"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.shadow\\.com\\.univocity\\.parsers\\.common\\.input\\.concurrent\\.CharBucket\\.fill\\:\\(Ljava\\/io\\/Reader\\;\\)I"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException", 
+   "java.lang.InterruptedException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.shadow\\.com\\.univocity\\.parsers\\.common\\.input\\.concurrent\\.ConcurrentCharLoader\\.readBucket\\:\\(\\)I"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.CloneNotSupportedException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.shadow\\.com\\.univocity\\.parsers\\.common\\.CommonWriterSettings\\.clone\\:\\(\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.CloneNotSupportedException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.shadow\\.com\\.univocity\\.parsers\\.common\\.processor\\.MasterDetailRecord\\.clone\\:\\(\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.shadow\\.com\\.univocity\\.parsers\\.common\\.processor\\.core\\.AbstractConcurrentProcessor\\$1\\.call\\:\\(\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.jupiter.params.shadow.com.univocity.parsers.common.DataProcessingException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.shadow\\.com\\.univocity\\.parsers\\.common\\.Internal\\.throwDataProcessingException\\:\\(Lorg\\/junit\\/jupiter\\/params\\/shadow\\/com\\/univocity\\/parsers\\/common\\/processor\\/core\\/Processor\\;Ljava\\/lang\\/Throwable\\;\\[Ljava\\/lang\\/String\\;I\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.CloneNotSupportedException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.shadow\\.com\\.univocity\\.parsers\\.common\\.CommonSettings\\.clone\\:\\(\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.shadow\\.com\\.univocity\\.parsers\\.common\\.ArgumentUtils\\.throwsUnchecked\\:\\(Ljava\\/lang\\/Throwable\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.CloneNotSupportedException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.shadow\\.com\\.univocity\\.parsers\\.common\\.fields\\.FieldConversionMapping\\.clone\\:\\(\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.CloneNotSupportedException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.shadow\\.com\\.univocity\\.parsers\\.common\\.fields\\.AbstractConversionMapping\\.clone\\:\\(\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.CloneNotSupportedException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.shadow\\.com\\.univocity\\.parsers\\.common\\.fields\\.ColumnMapping\\.clone\\:\\(\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.CloneNotSupportedException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.shadow\\.com\\.univocity\\.parsers\\.common\\.fields\\.ExcludeFieldEnumSelector\\.clone\\:\\(\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.CloneNotSupportedException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.shadow\\.com\\.univocity\\.parsers\\.common\\.fields\\.FieldSet\\.clone\\:\\(\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.CloneNotSupportedException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.shadow\\.com\\.univocity\\.parsers\\.common\\.fields\\.FieldEnumSelector\\.clone\\:\\(\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.CloneNotSupportedException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.shadow\\.com\\.univocity\\.parsers\\.common\\.fields\\.AbstractColumnMapping\\.clone\\:\\(\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.CloneNotSupportedException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.shadow\\.com\\.univocity\\.parsers\\.common\\.CommonParserSettings\\.clone\\:\\(\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.CloneNotSupportedException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.params\\.shadow\\.com\\.univocity\\.parsers\\.common\\.Format\\.clone\\:\\(\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.platform.commons.util.PreconditionViolationException"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.launcher\\.core\\.LauncherFactory\\.create\\:\\(\\)Lorg\\/junit\\/platform\\/launcher\\/Launcher\\;"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.platform.commons.util.PreconditionViolationException"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.launcher\\.core\\.LauncherFactory\\.create\\:\\(Lorg\\/junit\\/platform\\/launcher\\/core\\/LauncherConfig\\;\\)Lorg\\/junit\\/platform\\/launcher\\/Launcher\\;"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.platform.commons.util.PreconditionViolationException"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.launcher\\.core\\.InternalTestPlan\\.getTestIdentifier\\:\\(Ljava\\/lang\\/String\\;\\)Lorg\\/junit\\/platform\\/launcher\\/TestIdentifier\\;"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.platform.commons.util.PreconditionViolationException"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.launcher\\.TagFilter\\.includeTags\\:\\(\\[Ljava\\/lang\\/String\\;\\)Lorg\\/junit\\/platform\\/launcher\\/PostDiscoveryFilter\\;"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.platform.commons.util.PreconditionViolationException"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.launcher\\.TagFilter\\.includeTags\\:\\(Ljava\\/util\\/List\\;\\)Lorg\\/junit\\/platform\\/launcher\\/PostDiscoveryFilter\\;"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.platform.commons.util.PreconditionViolationException"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.launcher\\.TagFilter\\.excludeTags\\:\\(\\[Ljava\\/lang\\/String\\;\\)Lorg\\/junit\\/platform\\/launcher\\/PostDiscoveryFilter\\;"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.platform.commons.util.PreconditionViolationException"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.launcher\\.TagFilter\\.excludeTags\\:\\(Ljava\\/util\\/List\\;\\)Lorg\\/junit\\/platform\\/launcher\\/PostDiscoveryFilter\\;"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.platform.commons.util.PreconditionViolationException"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.launcher\\.TestPlan\\.getTestIdentifier\\:\\(Ljava\\/lang\\/String\\;\\)Lorg\\/junit\\/platform\\/launcher\\/TestIdentifier\\;"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.platform.commons.util.PreconditionViolationException"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.engine\\.TestTag\\.create\\:\\(Ljava\\/lang\\/String\\;\\)Lorg\\/junit\\/platform\\/engine\\/TestTag\\;"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.platform.commons.util.PreconditionViolationException"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.engine\\.discovery\\.DiscoverySelectors\\.selectMethod\\:\\(Ljava\\/lang\\/String\\;\\)Lorg\\/junit\\/platform\\/engine\\/discovery\\/MethodSelector\\;"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.platform.commons.JUnitException"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.engine\\.UniqueIdFormat\\.parse\\:\\(Ljava\\/lang\\/String\\;\\)Lorg\\/junit\\/platform\\/engine\\/UniqueId\\;"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.platform.commons.JUnitException"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.engine\\.UniqueIdFormat\\.createSegment\\:\\(Ljava\\/lang\\/String\\;\\)Lorg\\/junit\\/platform\\/engine\\/UniqueId\\$Segment\\;"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.platform.commons.JUnitException"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.engine\\.UniqueId\\.parse\\:\\(Ljava\\/lang\\/String\\;\\)Lorg\\/junit\\/platform\\/engine\\/UniqueId\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.CloneNotSupportedException"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.engine\\.UniqueId\\.clone\\:\\(\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Throwable"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.engine\\.support\\.hierarchical\\.ThrowableCollector\\$Executable\\.execute\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.InterruptedException"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.engine\\.support\\.hierarchical\\.NodeTestTask\\$DefaultDynamicTestExecutor\\.awaitFinished\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.engine\\.support\\.hierarchical\\.Node\\$Invocation\\.invoke\\:\\(Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/EngineExecutionContext\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Throwable"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.engine\\.support\\.hierarchical\\.NodeTestTask\\.lambda\\$cleanUp\\$9\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Throwable"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.engine\\.support\\.hierarchical\\.NodeTestTask\\.lambda\\$executeRecursively\\$8\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.engine\\.support\\.hierarchical\\.NodeTestTask\\.lambda\\$executeRecursively\\$7\\:\\(Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/EngineExecutionContext\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Throwable"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.engine\\.support\\.hierarchical\\.NodeTestTask\\.lambda\\$executeRecursively\\$6\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Throwable"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.engine\\.support\\.hierarchical\\.NodeTestTask\\.lambda\\$executeRecursively\\$5\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Throwable"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.engine\\.support\\.hierarchical\\.NodeTestTask\\.lambda\\$checkWhetherSkipped\\$2\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Throwable"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.engine\\.support\\.hierarchical\\.NodeTestTask\\.lambda\\$prepare\\$1\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.engine\\.support\\.hierarchical\\.DefaultParallelExecutionConfigurationStrategy\\$3\\.lambda\\$createConfiguration\\$2\\:\\(Lorg\\/junit\\/platform\\/engine\\/ConfigurationParameters\\;Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/ParallelExecutionConfigurationStrategy\\;\\)Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/ParallelExecutionConfiguration\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.engine\\.support\\.hierarchical\\.DefaultParallelExecutionConfigurationStrategy\\$3\\.lambda\\$createConfiguration\\$1\\:\\(Ljava\\/lang\\/Class\\;\\)Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/ParallelExecutionConfigurationStrategy\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.InterruptedException"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.engine\\.support\\.hierarchical\\.Node\\$DynamicTestExecutor\\.awaitFinished\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.InterruptedException"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.engine\\.support\\.hierarchical\\.SingleLock\\.acquire\\:\\(\\)Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/ResourceLock\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.InterruptedException"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.engine\\.support\\.hierarchical\\.CompositeLock\\$CompositeLockManagedBlocker\\.block\\:\\(\\)Z"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.InterruptedException"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.engine\\.support\\.hierarchical\\.ResourceLock\\.acquire\\:\\(\\)Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/ResourceLock\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.engine\\.support\\.hierarchical\\.ForkJoinPoolHierarchicalTestExecutorService\\.lambda\\$createForkJoinPool\\$2\\:\\(Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/ParallelExecutionConfiguration\\;Ljava\\/util\\/concurrent\\/ForkJoinPool\\$ForkJoinWorkerThreadFactory\\;\\)Ljava\\/util\\/concurrent\\/ForkJoinPool\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.engine\\.support\\.hierarchical\\.ForkJoinPoolHierarchicalTestExecutorService\\.lambda\\$createForkJoinPool\\$1\\:\\(Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/ParallelExecutionConfiguration\\;Ljava\\/util\\/concurrent\\/ForkJoinPool\\$ForkJoinWorkerThreadFactory\\;\\)Ljava\\/util\\/concurrent\\/ForkJoinPool\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.InterruptedException"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.engine\\.support\\.hierarchical\\.SingleLock\\$SingleLockManagedBlocker\\.block\\:\\(\\)Z"
+ }, 
+ {
+  "exceptions": [
+   "org.opentest4j.TestAbortedException", 
+   "java.lang.Throwable"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.engine\\.support\\.hierarchical\\.SingleTestExecutor\\$Executable\\.execute\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.InterruptedException"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.engine\\.support\\.hierarchical\\.CompositeLock\\.acquire\\:\\(\\)Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/ResourceLock\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.InterruptedException"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.engine\\.support\\.hierarchical\\.CompositeLock\\.acquireAllLocks\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.InterruptedException"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.engine\\.support\\.hierarchical\\.CompositeLock\\.access\\$100\\:\\(Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/CompositeLock\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.engine\\.support\\.hierarchical\\.Node\\.prepare\\:\\(Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/EngineExecutionContext\\;\\)Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/EngineExecutionContext\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.engine\\.support\\.hierarchical\\.Node\\.cleanUp\\:\\(Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/EngineExecutionContext\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.engine\\.support\\.hierarchical\\.Node\\.shouldBeSkipped\\:\\(Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/EngineExecutionContext\\;\\)Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/Node\\$SkipResult\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.engine\\.support\\.hierarchical\\.Node\\.before\\:\\(Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/EngineExecutionContext\\;\\)Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/EngineExecutionContext\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.engine\\.support\\.hierarchical\\.Node\\.execute\\:\\(Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/EngineExecutionContext\\;Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/Node\\$DynamicTestExecutor\\;\\)Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/EngineExecutionContext\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.engine\\.support\\.hierarchical\\.Node\\.after\\:\\(Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/EngineExecutionContext\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.platform\\.engine\\.support\\.hierarchical\\.Node\\.around\\:\\(Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/EngineExecutionContext\\;Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/Node\\$Invocation\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.extension\\.TempDirectory\\$CloseablePath\\$1\\.postVisitDirectory\\:\\(Ljava\\/lang\\/Object\\;Ljava\\/io\\/IOException\\;\\)Ljava\\/nio\\/file\\/FileVisitResult\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.extension\\.TempDirectory\\$CloseablePath\\$1\\.visitFile\\:\\(Ljava\\/lang\\/Object\\;Ljava\\/nio\\/file\\/attribute\\/BasicFileAttributes\\;\\)Ljava\\/nio\\/file\\/FileVisitResult\\;"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.jupiter.api.extension.ParameterResolutionException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.extension\\.RepetitionInfoParameterResolver\\.resolveParameter\\:\\(Lorg\\/junit\\/jupiter\\/api\\/extension\\/ParameterContext\\;Lorg\\/junit\\/jupiter\\/api\\/extension\\/ExtensionContext\\;\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.jupiter.api.extension.ParameterResolutionException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.extension\\.TestReporterParameterResolver\\.resolveParameter\\:\\(Lorg\\/junit\\/jupiter\\/api\\/extension\\/ParameterContext\\;Lorg\\/junit\\/jupiter\\/api\\/extension\\/ExtensionContext\\;\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "org.junit.jupiter.api.extension.ParameterResolutionException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.extension\\.TestInfoParameterResolver\\.resolveParameter\\:\\(Lorg\\/junit\\/jupiter\\/api\\/extension\\/ParameterContext\\;Lorg\\/junit\\/jupiter\\/api\\/extension\\/ExtensionContext\\;\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.extension\\.TempDirectory\\.beforeAll\\:\\(Lorg\\/junit\\/jupiter\\/api\\/extension\\/ExtensionContext\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.extension\\.TempDirectory\\.beforeEach\\:\\(Lorg\\/junit\\/jupiter\\/api\\/extension\\/ExtensionContext\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.extension\\.TempDirectory\\$CloseablePath\\.close\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.extension\\.TempDirectory\\$CloseablePath\\.deleteAllFilesAndDirectories\\:\\(\\)Ljava\\/util\\/SortedMap\\;"
+ }, 
+ {
+  "exceptions": [
+   "javax.script.ScriptException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.script\\.ScriptExecutionManager\\.evaluate\\:\\(Lorg\\/junit\\/jupiter\\/engine\\/script\\/Script\\;Ljavax\\/script\\/Bindings\\;\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.CloneNotSupportedException"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.execution\\.JupiterEngineExecutionContext\\$State\\.clone\\:\\(\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Throwable"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.execution\\.BeforeEachMethodAdapter\\.invokeBeforeEachMethod\\:\\(Lorg\\/junit\\/jupiter\\/api\\/extension\\/ExtensionContext\\;Lorg\\/junit\\/jupiter\\/engine\\/extension\\/ExtensionRegistry\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.execution\\.JupiterEngineExecutionContext\\.close\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Throwable"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.execution\\.AfterEachMethodAdapter\\.invokeAfterEachMethod\\:\\(Lorg\\/junit\\/jupiter\\/api\\/extension\\/ExtensionContext\\;Lorg\\/junit\\/jupiter\\/engine\\/extension\\/ExtensionRegistry\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.descriptor\\.TestTemplateInvocationTestDescriptor\\.after\\:\\(Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/EngineExecutionContext\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.descriptor\\.DynamicNodeTestDescriptor\\.prepare\\:\\(Lorg\\/junit\\/jupiter\\/engine\\/execution\\/JupiterEngineExecutionContext\\;\\)Lorg\\/junit\\/jupiter\\/engine\\/execution\\/JupiterEngineExecutionContext\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.descriptor\\.DynamicNodeTestDescriptor\\.shouldBeSkipped\\:\\(Lorg\\/junit\\/jupiter\\/engine\\/execution\\/JupiterEngineExecutionContext\\;\\)Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/Node\\$SkipResult\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.descriptor\\.DynamicNodeTestDescriptor\\.shouldBeSkipped\\:\\(Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/EngineExecutionContext\\;\\)Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/Node\\$SkipResult\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.descriptor\\.DynamicNodeTestDescriptor\\.prepare\\:\\(Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/EngineExecutionContext\\;\\)Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/EngineExecutionContext\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.descriptor\\.DynamicContainerTestDescriptor\\.execute\\:\\(Lorg\\/junit\\/jupiter\\/engine\\/execution\\/JupiterEngineExecutionContext\\;Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/Node\\$DynamicTestExecutor\\;\\)Lorg\\/junit\\/jupiter\\/engine\\/execution\\/JupiterEngineExecutionContext\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.descriptor\\.DynamicContainerTestDescriptor\\.execute\\:\\(Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/EngineExecutionContext\\;Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/Node\\$DynamicTestExecutor\\;\\)Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/EngineExecutionContext\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.descriptor\\.DynamicTestTestDescriptor\\.execute\\:\\(Lorg\\/junit\\/jupiter\\/engine\\/execution\\/JupiterEngineExecutionContext\\;Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/Node\\$DynamicTestExecutor\\;\\)Lorg\\/junit\\/jupiter\\/engine\\/execution\\/JupiterEngineExecutionContext\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.descriptor\\.DynamicTestTestDescriptor\\.execute\\:\\(Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/EngineExecutionContext\\;Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/Node\\$DynamicTestExecutor\\;\\)Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/EngineExecutionContext\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.descriptor\\.TestMethodTestDescriptor\\.prepare\\:\\(Lorg\\/junit\\/jupiter\\/engine\\/execution\\/JupiterEngineExecutionContext\\;\\)Lorg\\/junit\\/jupiter\\/engine\\/execution\\/JupiterEngineExecutionContext\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.descriptor\\.TestMethodTestDescriptor\\.execute\\:\\(Lorg\\/junit\\/jupiter\\/engine\\/execution\\/JupiterEngineExecutionContext\\;Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/Node\\$DynamicTestExecutor\\;\\)Lorg\\/junit\\/jupiter\\/engine\\/execution\\/JupiterEngineExecutionContext\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.descriptor\\.TestMethodTestDescriptor\\.execute\\:\\(Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/EngineExecutionContext\\;Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/Node\\$DynamicTestExecutor\\;\\)Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/EngineExecutionContext\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.descriptor\\.TestMethodTestDescriptor\\.prepare\\:\\(Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/EngineExecutionContext\\;\\)Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/EngineExecutionContext\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Throwable"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.descriptor\\.TestMethodTestDescriptor\\.lambda\\$invokeAfterEachCallbacks\\$12\\:\\(Lorg\\/junit\\/jupiter\\/api\\/extension\\/AfterEachCallback\\;Lorg\\/junit\\/jupiter\\/api\\/extension\\/ExtensionContext\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Throwable"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.descriptor\\.TestMethodTestDescriptor\\.lambda\\$invokeAfterEachMethods\\$10\\:\\(Lorg\\/junit\\/jupiter\\/engine\\/execution\\/AfterEachMethodAdapter\\;Lorg\\/junit\\/jupiter\\/api\\/extension\\/ExtensionContext\\;Lorg\\/junit\\/jupiter\\/engine\\/extension\\/ExtensionRegistry\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Throwable"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.descriptor\\.TestMethodTestDescriptor\\.lambda\\$invokeAfterTestExecutionCallbacks\\$8\\:\\(Lorg\\/junit\\/jupiter\\/api\\/extension\\/AfterTestExecutionCallback\\;Lorg\\/junit\\/jupiter\\/api\\/extension\\/ExtensionContext\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Throwable"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.descriptor\\.TestMethodTestDescriptor\\.lambda\\$invokeTestMethod\\$7\\:\\(Lorg\\/junit\\/jupiter\\/api\\/extension\\/ExtensionContext\\;Lorg\\/junit\\/jupiter\\/engine\\/execution\\/JupiterEngineExecutionContext\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Throwable"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.descriptor\\.TestMethodTestDescriptor\\.lambda\\$invokeBeforeTestExecutionCallbacks\\$5\\:\\(Lorg\\/junit\\/jupiter\\/api\\/extension\\/BeforeTestExecutionCallback\\;Lorg\\/junit\\/jupiter\\/api\\/extension\\/ExtensionContext\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Throwable"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.descriptor\\.TestMethodTestDescriptor\\.lambda\\$invokeBeforeEachMethods\\$3\\:\\(Lorg\\/junit\\/jupiter\\/engine\\/execution\\/BeforeEachMethodAdapter\\;Lorg\\/junit\\/jupiter\\/api\\/extension\\/ExtensionContext\\;Lorg\\/junit\\/jupiter\\/engine\\/extension\\/ExtensionRegistry\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Throwable"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.descriptor\\.TestMethodTestDescriptor\\.lambda\\$invokeBeforeEachCallbacks\\$1\\:\\(Lorg\\/junit\\/jupiter\\/api\\/extension\\/BeforeEachCallback\\;Lorg\\/junit\\/jupiter\\/api\\/extension\\/ExtensionContext\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Throwable"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.descriptor\\.TestMethodTestDescriptor\\.lambda\\$prepare\\$0\\:\\(Lorg\\/junit\\/jupiter\\/engine\\/execution\\/JupiterEngineExecutionContext\\;Lorg\\/junit\\/jupiter\\/engine\\/extension\\/ExtensionRegistry\\;Lorg\\/junit\\/jupiter\\/engine\\/descriptor\\/MethodExtensionContext\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.descriptor\\.JupiterEngineDescriptor\\.cleanUp\\:\\(Lorg\\/junit\\/jupiter\\/engine\\/execution\\/JupiterEngineExecutionContext\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.descriptor\\.JupiterEngineDescriptor\\.cleanUp\\:\\(Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/EngineExecutionContext\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.descriptor\\.JupiterEngineDescriptor\\.prepare\\:\\(Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/EngineExecutionContext\\;\\)Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/EngineExecutionContext\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.descriptor\\.ClassTestDescriptor\\.after\\:\\(Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/EngineExecutionContext\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.descriptor\\.ClassTestDescriptor\\.before\\:\\(Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/EngineExecutionContext\\;\\)Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/EngineExecutionContext\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.descriptor\\.ClassTestDescriptor\\.prepare\\:\\(Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/EngineExecutionContext\\;\\)Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/EngineExecutionContext\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Throwable"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.descriptor\\.ClassTestDescriptor\\.lambda\\$synthesizeAfterEachMethodAdapter\\$16\\:\\(Ljava\\/lang\\/reflect\\/Method\\;Lorg\\/junit\\/jupiter\\/api\\/extension\\/ExtensionContext\\;Lorg\\/junit\\/jupiter\\/engine\\/extension\\/ExtensionRegistry\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Throwable"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.descriptor\\.ClassTestDescriptor\\.lambda\\$synthesizeBeforeEachMethodAdapter\\$15\\:\\(Ljava\\/lang\\/reflect\\/Method\\;Lorg\\/junit\\/jupiter\\/api\\/extension\\/ExtensionContext\\;Lorg\\/junit\\/jupiter\\/engine\\/extension\\/ExtensionRegistry\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Throwable"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.descriptor\\.ClassTestDescriptor\\.lambda\\$invokeAfterAllCallbacks\\$12\\:\\(Lorg\\/junit\\/jupiter\\/api\\/extension\\/AfterAllCallback\\;Lorg\\/junit\\/jupiter\\/api\\/extension\\/ExtensionContext\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Throwable"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.descriptor\\.ClassTestDescriptor\\.lambda\\$invokeAfterAllMethods\\$10\\:\\(Ljava\\/lang\\/reflect\\/Method\\;Ljava\\/lang\\/Object\\;Lorg\\/junit\\/jupiter\\/api\\/extension\\/ExtensionContext\\;Lorg\\/junit\\/jupiter\\/engine\\/extension\\/ExtensionRegistry\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Throwable"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.descriptor\\.ClassTestDescriptor\\.lambda\\$invokeBeforeAllMethods\\$9\\:\\(Ljava\\/lang\\/reflect\\/Method\\;Ljava\\/lang\\/Object\\;Lorg\\/junit\\/jupiter\\/api\\/extension\\/ExtensionContext\\;Lorg\\/junit\\/jupiter\\/engine\\/extension\\/ExtensionRegistry\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Throwable"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.descriptor\\.ClassTestDescriptor\\.lambda\\$invokeBeforeAllCallbacks\\$8\\:\\(Lorg\\/junit\\/jupiter\\/api\\/extension\\/BeforeAllCallback\\;Lorg\\/junit\\/jupiter\\/api\\/extension\\/ExtensionContext\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Throwable"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.descriptor\\.ClassTestDescriptor\\.lambda\\$invokeTestInstancePostProcessors\\$6\\:\\(Lorg\\/junit\\/jupiter\\/api\\/extension\\/TestInstancePostProcessor\\;Ljava\\/lang\\/Object\\;Lorg\\/junit\\/jupiter\\/api\\/extension\\/ExtensionContext\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Throwable"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.descriptor\\.ClassTestDescriptor\\.lambda\\$before\\$0\\:\\(Lorg\\/junit\\/jupiter\\/engine\\/descriptor\\/ClassExtensionContext\\;Lorg\\/junit\\/jupiter\\/engine\\/execution\\/JupiterEngineExecutionContext\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Throwable"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.descriptor\\.TestFactoryTestDescriptor\\.lambda\\$invokeTestMethod\\$1\\:\\(Lorg\\/junit\\/jupiter\\/api\\/extension\\/ExtensionContext\\;Lorg\\/junit\\/jupiter\\/engine\\/execution\\/JupiterEngineExecutionContext\\;Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/Node\\$DynamicTestExecutor\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.descriptor\\.TestTemplateTestDescriptor\\.prepare\\:\\(Lorg\\/junit\\/jupiter\\/engine\\/execution\\/JupiterEngineExecutionContext\\;\\)Lorg\\/junit\\/jupiter\\/engine\\/execution\\/JupiterEngineExecutionContext\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.descriptor\\.TestTemplateTestDescriptor\\.execute\\:\\(Lorg\\/junit\\/jupiter\\/engine\\/execution\\/JupiterEngineExecutionContext\\;Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/Node\\$DynamicTestExecutor\\;\\)Lorg\\/junit\\/jupiter\\/engine\\/execution\\/JupiterEngineExecutionContext\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.descriptor\\.TestTemplateTestDescriptor\\.execute\\:\\(Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/EngineExecutionContext\\;Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/Node\\$DynamicTestExecutor\\;\\)Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/EngineExecutionContext\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.descriptor\\.TestTemplateTestDescriptor\\.prepare\\:\\(Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/EngineExecutionContext\\;\\)Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/EngineExecutionContext\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.descriptor\\.JupiterTestDescriptor\\.shouldBeSkipped\\:\\(Lorg\\/junit\\/jupiter\\/engine\\/execution\\/JupiterEngineExecutionContext\\;\\)Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/Node\\$SkipResult\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.descriptor\\.JupiterTestDescriptor\\.prepare\\:\\(Lorg\\/junit\\/jupiter\\/engine\\/execution\\/JupiterEngineExecutionContext\\;\\)Lorg\\/junit\\/jupiter\\/engine\\/execution\\/JupiterEngineExecutionContext\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.descriptor\\.JupiterTestDescriptor\\.cleanUp\\:\\(Lorg\\/junit\\/jupiter\\/engine\\/execution\\/JupiterEngineExecutionContext\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.descriptor\\.JupiterTestDescriptor\\.shouldBeSkipped\\:\\(Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/EngineExecutionContext\\;\\)Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/Node\\$SkipResult\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.descriptor\\.JupiterTestDescriptor\\.cleanUp\\:\\(Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/EngineExecutionContext\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.junit\\.jupiter\\.engine\\.descriptor\\.JupiterTestDescriptor\\.prepare\\:\\(Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/EngineExecutionContext\\;\\)Lorg\\/junit\\/platform\\/engine\\/support\\/hierarchical\\/EngineExecutionContext\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.pitest\\.util\\.SafeDataOutputStream\\.toByteArray\\:\\(Ljava\\/io\\/Serializable\\;\\)\\[B"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.instrument.IllegalClassFormatException"
+  ], 
+  "methodRegex": "org\\.pitest\\.mutationtest\\.mocksupport\\.BendJavassistToMyWillTransformer\\.transform\\:\\(Ljava\\/lang\\/ClassLoader\\;Ljava\\/lang\\/String\\;Ljava\\/lang\\/Class\\;Ljava\\/security\\/ProtectionDomain\\;\\[B\\)\\[B"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.pitest\\.mutationtest\\.execute\\.MutationTestWorker\\.run\\:\\(Ljava\\/util\\/Collection\\;Lorg\\/pitest\\/mutationtest\\/execute\\/Reporter\\;Lorg\\/pitest\\/mutationtest\\/execute\\/TimeOutDecoratedTestSource\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.pitest\\.mutationtest\\.execute\\.MutationTestWorker\\.processMutation\\:\\(Lorg\\/pitest\\/mutationtest\\/execute\\/Reporter\\;Lorg\\/pitest\\/mutationtest\\/execute\\/TimeOutDecoratedTestSource\\;Lorg\\/pitest\\/mutationtest\\/engine\\/MutationDetails\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.pitest\\.util\\.StreamUtil\\.streamToByteArray\\:\\(Ljava\\/io\\/InputStream\\;\\)\\[B"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.pitest\\.util\\.StreamUtil\\.copyStream\\:\\(Ljava\\/io\\/InputStream\\;\\)Ljava\\/io\\/InputStream\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.pitest\\.util\\.StreamUtil\\.copy\\:\\(Ljava\\/io\\/InputStream\\;Ljava\\/io\\/OutputStream\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.pitest\\.util\\.ManifestUtils\\.createClasspathJarFile\\:\\(Ljava\\/lang\\/String\\;\\)Ljava\\/io\\/File\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.pitest\\.junit\\.adapter\\.AdaptingRunListener\\.testFailure\\:\\(Lorg\\/junit\\/runner\\/notification\\/Failure\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.pitest\\.junit\\.adapter\\.AdaptingRunListener\\.testIgnored\\:\\(Lorg\\/junit\\/runner\\/Description\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.pitest\\.junit\\.adapter\\.AdaptingRunListener\\.testStarted\\:\\(Lorg\\/junit\\/runner\\/Description\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.pitest\\.junit\\.adapter\\.AdaptingRunListener\\.testFinished\\:\\(Lorg\\/junit\\/runner\\/Description\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.instrument.IllegalClassFormatException"
+  ], 
+  "methodRegex": "org\\.pitest\\.coverage\\.CoverageTransformer\\.transform\\:\\(Ljava\\/lang\\/ClassLoader\\;Ljava\\/lang\\/String\\;Ljava\\/lang\\/Class\\;Ljava\\/security\\/ProtectionDomain\\;\\[B\\)\\[B"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.pitest\\.classpath\\.CompoundClassPathRoot\\.getData\\:\\(Ljava\\/lang\\/String\\;\\)Ljava\\/io\\/InputStream\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.net.MalformedURLException"
+  ], 
+  "methodRegex": "org\\.pitest\\.classpath\\.CompoundClassPathRoot\\.getResource\\:\\(Ljava\\/lang\\/String\\;\\)Ljava\\/net\\/URL\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.pitest\\.classpath\\.CompoundClassPathRoot\\.findRootForResource\\:\\(Ljava\\/lang\\/String\\;\\)Ljava\\/net\\/URL\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.pitest\\.classpath\\.OtherClassLoaderClassPathRoot\\.getData\\:\\(Ljava\\/lang\\/String\\;\\)Ljava\\/io\\/InputStream\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.net.MalformedURLException"
+  ], 
+  "methodRegex": "org\\.pitest\\.classpath\\.OtherClassLoaderClassPathRoot\\.getResource\\:\\(Ljava\\/lang\\/String\\;\\)Ljava\\/net\\/URL\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.pitest\\.classpath\\.DirectoryClassPathRoot\\.getData\\:\\(Ljava\\/lang\\/String\\;\\)Ljava\\/io\\/InputStream\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.net.MalformedURLException"
+  ], 
+  "methodRegex": "org\\.pitest\\.classpath\\.DirectoryClassPathRoot\\.getResource\\:\\(Ljava\\/lang\\/String\\;\\)Ljava\\/net\\/URL\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.pitest\\.util\\.SafeDataInputStream\\.deserialize\\:\\(\\[B\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.pitest\\.util\\.ServiceLoader\\.loadImpl\\:\\(Ljava\\/lang\\/Class\\;Ljava\\/lang\\/ClassLoader\\;\\)Ljava\\/util\\/Collection\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.pitest\\.util\\.ServiceLoader\\.createServicesFromStream\\:\\(Ljava\\/lang\\/Class\\;Ljava\\/lang\\/ClassLoader\\;Ljava\\/util\\/Collection\\;Ljava\\/io\\/InputStream\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.ClassNotFoundException"
+  ], 
+  "methodRegex": "org\\.pitest\\.mutationtest\\.execute\\.DefaultPITClassloader\\.findClass\\:\\(Ljava\\/lang\\/String\\;\\)Ljava\\/lang\\/Class\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.ClassNotFoundException"
+  ], 
+  "methodRegex": "org\\.pitest\\.mutationtest\\.execute\\.HotSwap\\.restoreLastClass\\:\\(Lorg\\/pitest\\/classinfo\\/ClassByteArraySource\\;Lorg\\/pitest\\/classinfo\\/ClassName\\;Ljava\\/lang\\/ClassLoader\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.ClassNotFoundException"
+  ], 
+  "methodRegex": "org\\.pitest\\.mutationtest\\.execute\\.HotSwap\\.restoreForLoader\\:\\(Ljava\\/lang\\/ClassLoader\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.pitest\\.mutationtest\\.execute\\.DefaultReporter\\.describe\\:\\(Lorg\\/pitest\\/mutationtest\\/engine\\/MutationIdentifier\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.pitest\\.mutationtest\\.execute\\.DefaultReporter\\.report\\:\\(Lorg\\/pitest\\/mutationtest\\/engine\\/MutationIdentifier\\;Lorg\\/pitest\\/mutationtest\\/MutationStatusTestPair\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.pitest\\.mutationtest\\.execute\\.Reporter\\.describe\\:\\(Lorg\\/pitest\\/mutationtest\\/engine\\/MutationIdentifier\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.pitest\\.mutationtest\\.execute\\.Reporter\\.report\\:\\(Lorg\\/pitest\\/mutationtest\\/engine\\/MutationIdentifier\\;Lorg\\/pitest\\/mutationtest\\/MutationStatusTestPair\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.pitest\\.boot\\.HotSwapAgent\\.agentmain\\:\\(Ljava\\/lang\\/String\\;Ljava\\/lang\\/instrument\\/Instrumentation\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.pitest\\.dependency\\.DependencyExtractor\\.extractCallDependenciesForPackages\\:\\(Ljava\\/lang\\/String\\;Ljava\\/util\\/function\\/Predicate\\;\\)Ljava\\/util\\/Collection\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.pitest\\.dependency\\.DependencyExtractor\\.extractCallDependenciesForPackages\\:\\(Ljava\\/lang\\/String\\;Ljava\\/util\\/function\\/Predicate\\;Ljava\\/util\\/function\\/Predicate\\;\\)Ljava\\/util\\/Collection\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.pitest\\.dependency\\.DependencyExtractor\\.extractCallDependencies\\:\\(Ljava\\/lang\\/String\\;Ljava\\/util\\/function\\/Predicate\\;\\)Ljava\\/util\\/Set\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.pitest\\.dependency\\.DependencyExtractor\\.extractCallDependencies\\:\\(Ljava\\/lang\\/String\\;Ljava\\/util\\/TreeSet\\;Ljava\\/util\\/function\\/Predicate\\;I\\)Ljava\\/util\\/Set\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.pitest\\.dependency\\.DependencyExtractor\\.examineChildDependencies\\:\\(ILjava\\/util\\/Set\\;Ljava\\/util\\/TreeSet\\;Ljava\\/util\\/function\\/Predicate\\;\\)Ljava\\/util\\/Set\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.pitest\\.dependency\\.DependencyExtractor\\.extractRelevantDependencies\\:\\(Ljava\\/lang\\/String\\;Ljava\\/util\\/function\\/Predicate\\;\\)Ljava\\/util\\/Set\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.pitest\\.dependency\\.DependencyExtractor\\.extract\\:\\(Ljava\\/lang\\/String\\;Ljava\\/util\\/function\\/Predicate\\;\\)Ljava\\/util\\/List\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.pitest\\.coverage\\.execute\\.JavassistCoverageInterceptor\\.getOriginalBytes\\:\\(Ljava\\/lang\\/Object\\;Ljava\\/lang\\/String\\;\\)\\[B"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.pitest\\.coverage\\.execute\\.CoverageMinion\\.getTestsFromParent\\:\\(Lorg\\/pitest\\/util\\/SafeDataInputStream\\;Lorg\\/pitest\\/coverage\\/execute\\/CoverageOptions\\;\\)Ljava\\/util\\/List\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.pitest\\.classpath\\.ClassPath\\.handleArchive\\:\\(Ljava\\/util\\/List\\;Ljava\\/io\\/File\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.pitest\\.classpath\\.ClassPath\\.getClassData\\:\\(Ljava\\/lang\\/String\\;\\)\\[B"
+ }, 
+ {
+  "exceptions": [
+   "java.net.MalformedURLException"
+  ], 
+  "methodRegex": "org\\.pitest\\.classpath\\.NameCachingRoot\\.getResource\\:\\(Ljava\\/lang\\/String\\;\\)Ljava\\/net\\/URL\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.pitest\\.classpath\\.NameCachingRoot\\.getData\\:\\(Ljava\\/lang\\/String\\;\\)Ljava\\/io\\/InputStream\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.net.MalformedURLException"
+  ], 
+  "methodRegex": "org\\.pitest\\.classpath\\.ClassPathRoot\\.getResource\\:\\(Ljava\\/lang\\/String\\;\\)Ljava\\/net\\/URL\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.pitest\\.classpath\\.ClassPathRoot\\.getData\\:\\(Ljava\\/lang\\/String\\;\\)Ljava\\/io\\/InputStream\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.pitest\\.classpath\\.ArchiveClassPathRoot\\.getData\\:\\(Ljava\\/lang\\/String\\;\\)Ljava\\/io\\/InputStream\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.net.MalformedURLException"
+  ], 
+  "methodRegex": "org\\.pitest\\.classpath\\.ArchiveClassPathRoot\\.getResource\\:\\(Ljava\\/lang\\/String\\;\\)Ljava\\/net\\/URL\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.pitest\\.reloc\\.asm\\.ClassReader\\.\\<init\\>\\:\\(Ljava\\/io\\/InputStream\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.pitest\\.reloc\\.asm\\.ClassReader\\.\\<init\\>\\:\\(Ljava\\/lang\\/String\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.pitest\\.reloc\\.asm\\.ClassReader\\.readStream\\:\\(Ljava\\/io\\/InputStream\\;Z\\)\\[B"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.pitest\\.reloc\\.asm\\.commons\\.SerialVersionUIDAdder\\.computeSVUID\\:\\(\\)J"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.pitest\\.reloc\\.asm\\.commons\\.SerialVersionUIDAdder\\.writeItems\\:\\(Ljava\\/util\\/Collection\\;Ljava\\/io\\/DataOutput\\;Z\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.IllegalArgumentException"
+  ], 
+  "methodRegex": "org\\.hamcrest\\.beans\\.PropertyUtil\\.getPropertyDescriptor\\:\\(Ljava\\/lang\\/String\\;Ljava\\/lang\\/Object\\;\\)Ljava\\/beans\\/PropertyDescriptor\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.IllegalArgumentException"
+  ], 
+  "methodRegex": "org\\.hamcrest\\.beans\\.PropertyUtil\\.propertyDescriptorsFor\\:\\(Ljava\\/lang\\/Object\\;Ljava\\/lang\\/Class\\;\\)\\[Ljava\\/beans\\/PropertyDescriptor\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.hamcrest\\.generator\\.EasyMock2FactoryWriter\\.writeHeader\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.hamcrest\\.generator\\.EasyMock2FactoryWriter\\.writeFooter\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.hamcrest\\.generator\\.EasyMock2FactoryWriter\\.close\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.hamcrest\\.generator\\.EasyMock2FactoryWriter\\.flush\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.hamcrest\\.generator\\.EasyMock2FactoryWriter\\.writeMethod\\:\\(Ljava\\/lang\\/String\\;Lorg\\/hamcrest\\/generator\\/FactoryMethod\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.hamcrest\\.generator\\.FactoryWriter\\.writeHeader\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.hamcrest\\.generator\\.FactoryWriter\\.writeMethod\\:\\(Ljava\\/lang\\/String\\;Lorg\\/hamcrest\\/generator\\/FactoryMethod\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.hamcrest\\.generator\\.FactoryWriter\\.writeFooter\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.hamcrest\\.generator\\.HamcrestFactoryWriter\\.writeHeader\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.hamcrest\\.generator\\.HamcrestFactoryWriter\\.writeFooter\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.hamcrest\\.generator\\.HamcrestFactoryWriter\\.close\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.hamcrest\\.generator\\.HamcrestFactoryWriter\\.flush\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.hamcrest\\.generator\\.HamcrestFactoryWriter\\.writeMethod\\:\\(Ljava\\/lang\\/String\\;Lorg\\/hamcrest\\/generator\\/FactoryMethod\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.hamcrest\\.generator\\.QuickReferenceWriter\\.writeHeader\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.hamcrest\\.generator\\.QuickReferenceWriter\\.writeMethod\\:\\(Ljava\\/lang\\/String\\;Lorg\\/hamcrest\\/generator\\/FactoryMethod\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.hamcrest\\.generator\\.QuickReferenceWriter\\.writeFooter\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.hamcrest\\.generator\\.QuickReferenceWriter\\.close\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.hamcrest\\.generator\\.QuickReferenceWriter\\.flush\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.hamcrest\\.generator\\.SugarGenerator\\.generate\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.hamcrest\\.generator\\.SugarGenerator\\.close\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "org.xml.sax.SAXException"
+  ], 
+  "methodRegex": "org\\.hamcrest\\.generator\\.config\\.XmlConfigurator\\$1\\.startElement\\:\\(Ljava\\/lang\\/String\\;Ljava\\/lang\\/String\\;Ljava\\/lang\\/String\\;Lorg\\/xml\\/sax\\/Attributes\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "javax.xml.parsers.ParserConfigurationException", 
+   "org.xml.sax.SAXException", 
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.hamcrest\\.generator\\.config\\.XmlConfigurator\\.load\\:\\(Lorg\\/xml\\/sax\\/InputSource\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.ClassNotFoundException"
+  ], 
+  "methodRegex": "org\\.hamcrest\\.generator\\.config\\.XmlConfigurator\\.addClass\\:\\(Ljava\\/lang\\/String\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "org\\.hamcrest\\.generator\\.config\\.XmlConfigurator\\.main\\:\\(\\[Ljava\\/lang\\/String\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.ClassNotFoundException"
+  ], 
+  "methodRegex": "org\\.hamcrest\\.generator\\.config\\.XmlConfigurator\\.access\\$000\\:\\(Lorg\\/hamcrest\\/generator\\/config\\/XmlConfigurator\\;Ljava\\/lang\\/String\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException", 
+   "java.io.FileNotFoundException"
+  ], 
+  "methodRegex": "org\\.hamcrest\\.generator\\.qdox\\.JavaDocBuilder\\.addSource\\:\\(Ljava\\/io\\/File\\;\\)Lorg\\/hamcrest\\/generator\\/qdox\\/model\\/JavaSource\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException", 
+   "java.io.FileNotFoundException"
+  ], 
+  "methodRegex": "org\\.hamcrest\\.generator\\.qdox\\.JavaDocBuilder\\.addSource\\:\\(Ljava\\/net\\/URL\\;\\)Lorg\\/hamcrest\\/generator\\/qdox\\/model\\/JavaSource\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.hamcrest\\.generator\\.qdox\\.JavaDocBuilder\\.save\\:\\(Ljava\\/io\\/File\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.hamcrest\\.generator\\.qdox\\.JavaDocBuilder\\.load\\:\\(Ljava\\/io\\/File\\;\\)Lorg\\/hamcrest\\/generator\\/qdox\\/JavaDocBuilder\\;"
+ }, 
+ {
+  "exceptions": [
+   "org.apache.tools.ant.BuildException"
+  ], 
+  "methodRegex": "org\\.hamcrest\\.generator\\.qdox\\.ant\\.AbstractQdoxTask\\.execute\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "org.apache.tools.ant.BuildException"
+  ], 
+  "methodRegex": "org\\.hamcrest\\.generator\\.qdox\\.ant\\.AbstractQdoxTask\\.validateAttributes\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.hamcrest\\.generator\\.qdox\\.junit\\.APITestCase\\.assertApiEquals\\:\\(Ljava\\/net\\/URL\\;Ljava\\/net\\/URL\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException", 
+   "java.lang.ClassNotFoundException"
+  ], 
+  "methodRegex": "org\\.hamcrest\\.generator\\.qdox\\.model\\.ClassLibrary\\.readObject\\:\\(Ljava\\/io\\/ObjectInputStream\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.hamcrest\\.generator\\.qdox\\.parser\\.Lexer\\.lex\\:\\(\\)I"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.hamcrest\\.generator\\.qdox\\.parser\\.impl\\.JFlexLexer\\.lex\\:\\(\\)I"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.hamcrest\\.generator\\.qdox\\.parser\\.impl\\.JFlexLexer\\.zzRefill\\:\\(\\)Z"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.hamcrest\\.generator\\.qdox\\.parser\\.impl\\.JFlexLexer\\.yyclose\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.hamcrest\\.generator\\.qdox\\.parser\\.impl\\.JFlexLexer\\.yypopStream\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.hamcrest\\.generator\\.qdox\\.parser\\.impl\\.JFlexLexer\\.zzDoEOF\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.hamcrest\\.generator\\.qdox\\.parser\\.impl\\.JFlexLexer\\.yylex\\:\\(\\)I"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.hamcrest\\.generator\\.qdox\\.tools\\.QDoxTester\\.checkZipOrJarFile\\:\\(Ljava\\/io\\/File\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.hamcrest\\.generator\\.qdox\\.tools\\.QDoxTester\\.checkDirectory\\:\\(Ljava\\/io\\/File\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.hamcrest\\.generator\\.qdox\\.tools\\.QDoxTester\\.checkJavaFile\\:\\(Ljava\\/io\\/File\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "org\\.hamcrest\\.generator\\.qdox\\.tools\\.QDoxTester\\.main\\:\\(\\[Ljava\\/lang\\/String\\;\\)V"
+ }
+]
